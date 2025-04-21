@@ -17,7 +17,7 @@
                         <table id="example2" class="table table-bordered table-hover">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th>#</th>
+                                    <th>Sl. No</th>
                                     <th>Full Name</th>
                                     <th>Email</th>
                                     <th>Gender</th>
@@ -30,7 +30,7 @@
                                 {% for staff in allStaff %}
                                 <tr>
                                     <td>{{ forloop.counter }}</td>
-                                    <td>{{staff.last_name}}, {{staff.first_name}}</td>
+                                    <td>{{staff.first_name}} {{staff.last_name}}</td>
                                     <td>{{staff.email}}</td>
                                     <td>{{staff.gender}}</td>
                                     <td>{{staff.staff.course.name}}</td>
