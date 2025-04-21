@@ -127,6 +127,10 @@ $  cd College-ERP
 ```python
 $  pip3 install -r requirements.txt
 ```
+# Use a verified SMTP library like django-anymail
+```
+$  pip install django-anymail
+```
 
 **5. Add the hosts**
 
