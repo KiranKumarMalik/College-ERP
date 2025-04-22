@@ -219,6 +219,7 @@ $  python3 manage.py createsuperuser
 ## Login
 - username: email
 - Password: password
+
 ![login](https://github.com/KiranKumarMalik/College-ERP/blob/2bf3152964437e4bf1b4f318b28ca898b1856912/ss/Screenshot%202025-04-22%20205658.png)
 
 ## Login
