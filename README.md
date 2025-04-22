@@ -1,5 +1,5 @@
-# College Enterprise Resource Planner
-This is a College Enterprise Resource Planner Developed by me and my project partners for my college.
+# CUTM College Enterprise Resource Planner
+This is a CUTM College Enterprise Resource Planner (ERP) Developed by me and my project partners for my college.
 We use Python/Django Framwork for building an fully functional web application. (If facing problem!! : put discussion)
 
 ## Demo
