@@ -221,8 +221,12 @@ $  python3 manage.py createsuperuser
 - Password: password
 ![login](https://github.com/KiranKumarMalik/College-ERP/blob/2bf3152964437e4bf1b4f318b28ca898b1856912/ss/Screenshot%202025-04-22%20205658.png)
 
+## Login
+
 Admin Login
 - username: Superuser mailid
 - Password: superuser password
+
 Dashboard
-![Dashboard](https://github.com/KiranKumarMalik/College-Management-System-using-Django/blob/e22cd1b496ad113e001b118c81f8854bddbf1856/ss/Screenshot%202025-04-17%20200510.png)
+
+![Dashboard](https://github.com/KiranKumarMalik/College-ERP/blob/5b8ebd8faa29a3d6a4f329647ed42c45e6a745e8/ss/Screenshot%202025-04-22%20210520.png)
