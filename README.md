@@ -178,8 +178,6 @@ Command for Linux:
 $  python3 manage.py createsuperuser
 ```
 
-
-
 ## Project's Journey
 - [x] Admin/Staff/Student Login
 - [x] Add and Edit Course
