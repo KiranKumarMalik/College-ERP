@@ -190,7 +190,7 @@ $  python3 manage.py createsuperuser
 - [x] Upload Student's Picture
 - [x] Sidebar Active Status
 - [x] Named URLs
-- [x] Model Forms for adding  student
+- [x] Model Forms for adding student
 - [x] Model Forms for all
 - [x] Views Permission (MiddleWareMixin)
 - [x] Attendance and Update Attendance
