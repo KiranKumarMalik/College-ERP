@@ -7,8 +7,6 @@ from django.contrib.auth.models import AbstractUser
 from datetime import datetime,timedelta
 
 
-
-
 class CustomUserManager(UserManager):
     def _create_user(self, email, password, **extra_fields):
         email = self.normalize_email(email)
