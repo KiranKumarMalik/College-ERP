@@ -124,4 +124,3 @@ messaging.setBackgroundMessageHandler(function (payload) {
 });
     """
     return HttpResponse(data, content_type='application/javascript')
-
