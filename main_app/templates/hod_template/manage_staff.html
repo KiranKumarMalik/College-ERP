@@ -42,8 +42,8 @@
                                         {% endif %}
                                     </td>
                                     <td>
-                                        <a href="{% url 'edit_staff' staff.staff.id %}" class="btn btn-info">Edit <i class="fas fa-edit"></i></a> - 
-                                        <a href="{% url 'delete_staff' staff.staff.id %}" class="btn btn-danger" onclick="return confirm('Are you sure about {{staff.first_name}} {{staff.last_name}} ?')">Delete <i class="fas fa-trash-alt"></i></a>
+                                        <a href="{% url 'edit_staff' staff.staff.id %}" class="btn btn-info"><i class="fas fa-edit"></i></a> - 
+                                        <a href="{% url 'delete_staff' staff.staff.id %}" class="btn btn-danger" onclick="return confirm('Are you sure about {{staff.first_name}} {{staff.last_name}} ?')"><i class="fas fa-trash-alt"></i></a>
                                     </td>
                                 </tr>
                                 {% endfor %}
