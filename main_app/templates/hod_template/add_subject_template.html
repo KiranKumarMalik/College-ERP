@@ -1,7 +1,6 @@
 {% extends 'main_app/base.html' %}
 {% load static %}
 {% block page_title %}{{page_title}}{% endblock page_title %}
-
 {% block content %}
 
 <section class="content">
@@ -13,11 +12,9 @@
                     <div class="card-header">
                         <h3 class="card-title">{{page_title}}</h3>
                     </div>
-
                     {% include "main_app/form_template.html" with messages=messages  form=form button_text="Add Subject"%}
                 </div>
                 <!-- /.card -->
-
             </div>
         </div>
     </div>
