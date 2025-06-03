@@ -31,14 +31,12 @@
         <tr>
             <td>{{forloop.counter}}</td>
             <td>{{feedback.feedback}}</td>
-            <td>
-                  
+            <td> 
                 {% if feedback.reply == "" %}
                     <p class="badge badge-warning">No Response Yet</p>
                     {% else %}
                     {{feedback.reply}}
-                {% endif %}
-                    
+                {% endif %}     
             </td>              
             <td>
                 {{feedback.created_at}}
