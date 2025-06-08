@@ -21,7 +21,7 @@
                <th>Test</th>
                <th>Exam</th>
                <th>Total</th>
-        </tr>
+            </tr>
         {% for result in results %}
         <tr>
             <td>{{forloop.counter}}</td>
@@ -29,7 +29,7 @@
             <td>{{ result.test }}</td>
             <td>{{ result.exam }}</td>
             <td>{{ result.test|add:result.exam }}</td>
-            </tr>
+        </tr>
             {% endfor %}
         </table>
     </div>
