@@ -5,7 +5,6 @@ from .models import Subject, Staff, Student, StudentResult
 from .forms import EditResultForm
 from django.urls import reverse
 
-
 class EditResultView(View):
     def get(self, request, *args, **kwargs):
         resultForm = EditResultForm()
