@@ -80,7 +80,6 @@ def admin_home(request):
         "student_count_list_in_subject": student_count_list_in_subject,
         "student_count_list_in_course": student_count_list_in_course,
         "course_name_list": course_name_list,
-
     }
     return render(request, 'hod_template/home_content.html', context)
 
