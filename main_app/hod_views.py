@@ -109,7 +109,6 @@ def add_staff(request):
                 user.save()
                 messages.success(request, "Successfully Added")
                 return redirect(reverse('add_staff'))
-
             except Exception as e:
                 messages.error(request, "Could Not Add " + str(e))
         else:
