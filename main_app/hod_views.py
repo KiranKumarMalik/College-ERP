@@ -191,7 +191,6 @@ def add_subject(request):
                 subject.save()
                 messages.success(request, "Successfully Added")
                 return redirect(reverse('add_subject'))
-
             except Exception as e:
                 messages.error(request, "Could Not Add " + str(e))
         else:
