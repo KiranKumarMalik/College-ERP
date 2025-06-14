@@ -113,7 +113,6 @@ def add_staff(request):
                 messages.error(request, "Could Not Add " + str(e))
         else:
             messages.error(request, "Please fulfil all requirements")
-
     return render(request, 'hod_template/add_staff_template.html', context)
 
 
