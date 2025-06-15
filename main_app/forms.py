@@ -92,7 +92,6 @@ class CourseForm(FormSettings):
         fields = ['name']
         model = Course
 
-
 class SubjectForm(FormSettings):
 
     def __init__(self, *args, **kwargs):
